@@ -1,0 +1,12 @@
+syntax = "proto3";
+package proto;
+
+message Country {
+  string name = 1;
+  string alpha2Code = 2;
+  string region = 3;
+}
+
+message CountryList {
+  repeated Country countries = 1;
+}
