@@ -1,1 +1,10 @@
-[]
+[
+    {
+        "code": "BR",
+        "name": "Brazil"
+    },
+    {
+        "code": "CA",
+        "name": "Canada"
+    }
+]

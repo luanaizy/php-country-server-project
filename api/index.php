@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_NOTICE);
+ini_set('display_errors', 0);
 
 require_once __DIR__ . '/tools/proto/vendor/autoload.php';
 require_once __DIR__ . '/controllers/CountryController.php';
